@@ -60,16 +60,43 @@ When an attacker obtains a verifier, offline wordlist attacks can test guesses w
 
 ## Evidence gallery
 
-The following six screenshots document the workflow. Secret values were visibly redacted from the derivatives before publication; the supplied source captures were left unchanged.
+The six screenshots below are stored in the repository root and displayed inline in workflow order. Secret values were visibly redacted from the derivatives before publication; the supplied source captures were left unchanged.
 
-| Evidence | Demonstrates |
-| --- | --- |
-| [Hash Calculator extraction](evidence/01-hash-calculator-redacted.png) | NetworkWalks Hash Calculator processing the supplied PDF; the extracted verifier area is redacted. |
-| [Built-in dictionary result](evidence/02-password-cracker-redacted.png) | NetworkWalks Password Cracker dictionary workflow; verifier and password/result areas are redacted. |
-| [Training result in browser](evidence/03-training-result-redacted.png) | The browser-based training outcome; flag value is redacted. |
-| [John the Ripper session](evidence/04-john-session-redacted.png) | Kali Linux wordlist-session evidence; terminal output is redacted to protect any embedded values. |
-| [Kali PDF password prompt](evidence/05-kali-password-prompt-redacted.png) | The supplied PDF's unlock prompt; the password-entry area is redacted. |
-| [Training result in Kali](evidence/06-training-result-kali-redacted.png) | The unlocked training document's result screen; flag value is redacted. |
+### 1. Hash Calculator extraction
+
+NetworkWalks Hash Calculator processing the supplied PDF; the extracted verifier area is redacted.
+
+![Redacted Hash Calculator extraction](01-hash-calculator-redacted.png)
+
+### 2. Built-in dictionary result
+
+NetworkWalks Password Cracker dictionary workflow; verifier and password/result areas are redacted.
+
+![Redacted Password Cracker result](02-password-cracker-redacted.png)
+
+### 3. Browser training result
+
+The browser-based training outcome; flag value is redacted.
+
+![Redacted browser training result](03-training-result-redacted.png)
+
+### 4. John the Ripper session
+
+Kali Linux wordlist-session evidence; terminal output is redacted to protect any embedded values.
+
+![Redacted John the Ripper session](04-john-session-redacted.png)
+
+### 5. Kali PDF password prompt
+
+The supplied PDF's unlock prompt; the password-entry area is redacted.
+
+![Redacted Kali PDF password prompt](05-kali-password-prompt-redacted.png)
+
+### 6. Training result in Kali
+
+The unlocked training document's result screen; flag value is redacted.
+
+![Redacted Kali training result](06-training-result-kali-redacted.png)
 
 ## Conclusion
 
